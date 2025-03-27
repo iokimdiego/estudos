@@ -1,2 +1,2 @@
 # estudos
-Repositório de estudos e exercícios práticos da minha jornada de aprendizagem
+Repositório de estudos e exercícios práticos da minha jornada de aprendizagem.
