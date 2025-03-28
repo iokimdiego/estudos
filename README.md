@@ -8,7 +8,7 @@ Este repositório foi criado para documentar minha jornada de aprendizado em **P
 
 ## 📂 Estrutura do Repositório
 
-
+- **aprendendo-javascript-CDC**: Módulo de Javascript no Curso de Front-End da Bia Codes na Comunidade DEV Completo
 - **Cursos**: Contém exercícios e projetos desenvolvidos durante cursos online e treinamentos.
 - **Testes individuais**: Pequenos experimentos com tecnologias e conceitos que estou explorando.
 - **Desafios**: Resolução de desafios de programação para reforçar conhecimentos.
