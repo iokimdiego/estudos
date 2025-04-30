@@ -26,6 +26,37 @@ nav {
 
 #homeSection {
     background-color: #222222;
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        color: #ffffff;
+        font-size: 3.8rem; /*61px/16px (1rem=16px)*/
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        color: #b6b6b6;
+        font-weight: 400;
+        font-size: 2.4rem;
+        padding: 24px 0px 64px 0;
+    }
+    
+    #photoHome {
+        width: 40vw;
+        height: 100vh - 65px; /*65px é o tamanho da navbar*/
+        background-image: url(assets/photos/smiley-man-working-laptop-from-home.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #textsHome {
+        display: flex;
+        flex-direction: column;
+        padding: 200px;
+        justify-content: center;
+    }
 }
 
 #aboutSection {
@@ -37,4 +68,24 @@ nav {
 
 #contactSection {
     background-color: #2343E3;
+}
+
+.downloadButton {
+    background-color: #FF9E44;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 8px 14px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+
+    a{
+        padding-left: 11px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    img {
+        color: #ffffff;
+    }
 }
