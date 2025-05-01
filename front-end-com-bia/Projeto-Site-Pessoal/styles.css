@@ -1,0 +1,133 @@
+* {
+    font-family: "Rubik", sans-serif;
+}
+section {
+    height: 100vh;
+}
+
+.titles {
+    color: #ffffff;
+    font-size: 3.8rem; /*61px/16px (1rem=16px)*/
+    text-transform: uppercase;
+}
+
+.defaultButton {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 8px 14px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+
+    a{
+        padding-left: 11px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    img {
+        color: #ffffff;
+    }
+}
+
+nav {
+    background-color: #ededed;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 63px;
+    box-shadow: 0px 4px 4px 0px #00000025;
+}
+
+#navBarLinks {
+    display: flex;
+
+    li {
+        padding-left: 72px;
+    }
+}
+
+#homeSection {
+    background-color: #222222;
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    h2 {
+        color: #b6b6b6;
+        font-weight: 400;
+        font-size: 2.4rem;
+        padding: 24px 0px 64px 0;
+    }
+    
+    #photoHome {
+        width: 40vw;
+        height: 100vh - 65px; /*65px é o tamanho da navbar*/
+        background-image: url(assets/photos/smiley-man-working-laptop-from-home.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #textsHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+    }
+}
+
+#aboutSection {
+    background-color: #FF9E44;
+    display: flex;
+
+    #textsAboutMeFlexContainer {
+        padding-top: 65px;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #textsAboutMeFlexItem {
+            width: 80%;
+        }
+    }
+
+    #photoAboutMe {
+        background-image: url(assets/photos/freepik__the-style-is-candid-image-photography-with-natural__87567.jpeg);
+        width: 40vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    p {
+        font-size: 1.75rem;
+        color: #ffffff;
+        line-height: 2.4rem;
+        padding: 45px 0 56px 0;
+    }
+
+    .linkedinButton {
+
+    }
+}
+
+#skillsSection {
+}
+
+#contactSection {
+    background-color: #2343E3;
+}
+
+.downloadButton {
+    background-color: #FF9E44;
+}
+
+.linkedinButton {
+    background-color: #FEAF67;
+    padding: 14px;
+}
