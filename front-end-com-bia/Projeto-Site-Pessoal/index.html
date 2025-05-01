@@ -14,10 +14,10 @@
     <nav>
         <img src="assets/icons/cube.png" alt="" width="36px">
         <ul id="navBarLinks">
-            <li>Sobre mim</li>
-            <li>Skills</li>
-            <li>Projetos</li>
-            <li><b>Contato</b></li>
+            <li><a href="aboutSection">Sobre mim</a></li>
+            <li><a href="skillsSection">Skills</a></li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="contactSection">Contato</a></li>
         </ul>
     </nav>
     <section id="homeSection">
@@ -37,7 +37,7 @@
         <div id="textsAboutMeFlexContainer">
             <div id="textsAboutMeFlexItem">
                 <h1 class="titles">Sobre mim</h1>
-                <p>Profissional em transição de carreira
+                <p class="customLineHeight">Profissional em transição de carreira
                     para o Desenvolvimento Front-End,
                     com sólida experiência administrativa
                     nos setores público e privado. Ao
@@ -77,21 +77,28 @@
         </div>
     </section>
     <section id="contactSection">
-        <h1>Contato</h1>
-        <p>Gostaria de bater um papo comigo? Vou deixar todas as minhas formas de contato e redes sociais listadas abaixo</p>
-        <div>
-            <div>
-                <img src="" alt="">
-                <p>iokimdiego@hotmail.com</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>+55 (92) 9 8194-0300</p>
+        <div id="textContactContainer">
+            <div id="textContactChild">
+                <h1 class="titles">Contato</h1>
+                <p class="customLineHeight">Gostaria de bater um papo comigo? Vou deixar todas as minhas formas de contato e redes sociais listadas abaixo</p>
+                <address class="emailAndPhone">
+                    <div class="itemContact">
+                        <img class="contactIcon" src="assets/icons/envelope-regular.svg" alt="">
+                        <p>iokimdiego@hotmail.com</p>
+                    </div>
+                    <div class="itemContact">
+                        <img class="contactIcon" src="assets/icons/whatsapp-brands.svg" alt="" >
+                        <p>+55 (92) 9 8194-0300</p>
+                    </div>
+                </address>
+                <div class="socialMedia">
+                    <a href="https://www.linkedin.com/in/iokimdiego/" target="_blank"><img class="linkIcon" src="assets/icons/linkedin.svg" alt=""></a>
+                    <a href="https://www.instagram.com/iokimdiego" target="_blank"><img class="linkIcon" src="assets/icons/instagram-brands.svg" alt=""></a>
+                    <a href="https://github.com/iokimdiego/iokimdiego" target="_blank"><img class="linkIcon" src="assets/icons/github-brands.svg" alt=""></a>
+                </div>
             </div>
         </div>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
+        <div id="photoContact"></div>
     </section>
 </body>
 </html>

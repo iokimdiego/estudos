@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #3c3c3c;
+    --highlight-color: #ff9e44;
+    --secondary-color: #ffffff;
+    --darker-background: #222222;
+}
 * {
     font-family: "Rubik", sans-serif;
 }
@@ -6,7 +12,7 @@ section {
 }
 
 .titles {
-    color: #ffffff;
+    color: var(--secondary-color);
     font-size: 3.8rem; /*61px/16px (1rem=16px)*/
     text-transform: uppercase;
 }
@@ -16,17 +22,17 @@ section {
     align-items: center;
     width: fit-content;
     padding: 8px 14px;
-    color: #ffffff;
+    color: var(--secondary-color);
     border-radius: 8px;
     cursor: pointer;
 
     a{
         padding-left: 11px;
         text-decoration: none;
-        color: #ffffff;
+        color: var(--secondary-color);
     }
     img {
-        color: #ffffff;
+        color: #var(--secondary-color);
     }
 }
 
@@ -39,6 +45,11 @@ nav {
     align-items: center;
     padding: 14px 63px;
     box-shadow: 0px 4px 4px 0px #00000025;
+
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
 }
 
 #navBarLinks {
@@ -50,7 +61,7 @@ nav {
 }
 
 #homeSection {
-    background-color: #222222;
+    background-color: var(--darker-background);
     padding-top: 65px;
     display: flex;
     justify-content: space-between;
@@ -81,7 +92,7 @@ nav {
 }
 
 #aboutSection {
-    background-color: #FF9E44;
+    background-color: var(--highlight-color);
     display: flex;
 
     #textsAboutMeFlexContainer {
@@ -106,8 +117,7 @@ nav {
 
     p {
         font-size: 1.75rem;
-        color: #ffffff;
-        line-height: 2.4rem;
+        color: var(--secondary-color);
         padding: 45px 0 56px 0;
     }
 
@@ -130,7 +140,7 @@ nav {
         align-items: center;
 
         h1 {
-            color: #3c3c3c;
+            color: var(--primary-color);
             padding-bottom: 68px;
         }
 
@@ -147,7 +157,7 @@ nav {
             background-color: #00000071;
             padding: 12px 17px;
             border-radius: 8px;
-            color: #ffffff;
+            color: var(--secondary-color);
             font-size: 1.93rem;
         }
     }
@@ -155,10 +165,44 @@ nav {
 
 #contactSection {
     background-color: #2343E3;
+    display: flex;
+
+    #textContactContainer {
+        width: 60vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            padding-bottom: 60px;
+            text-decoration: underline;
+        }
+        
+        p {
+            color: var(--secondary-color);
+            font-size: 1.56rem;
+        }
+
+        #textContactChild {
+            width: 80%;
+            max-width: 700px;
+        }
+    }
+
+
+    #photoContact {
+        background-image: url(assets/photos/portrait-successful-middle-aged-manager-businessman-holding-tablet-computer-large-warehouse-organizing-distribution.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 40vw;
+        height: 100vh;
+    }
 }
 
 .downloadButtonLight {
-    background-color: #FF9E44;
+    background-color: var(--highlight-color);
 }
 
 .linkedinButton {
@@ -167,6 +211,51 @@ nav {
 }
 
 .downloadButtonDark {
-    background-color: #3c3c3c;
-    padd
+    background-color: var(--primary-color);
+}
+
+.customLineHeight {
+    line-height: 2.4rem;
+}
+
+.emailAndPhone {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-style: normal;
+
+    .itemContact {
+        display: flex;
+        align-items: center;
+        padding-top: 12px;
+
+        p {
+            padding-left: 14px;
+        }
+
+        .contactIcon{
+            width: 28px;
+        }
+    }
+}
+
+.socialMedia {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+
+    a {
+        background-color: #3756f3;
+        padding: 12px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        height: 28px;
+    }
+}
+
+.linkIcon {
+    width: 32px;
 }
