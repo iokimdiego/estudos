@@ -117,17 +117,56 @@ nav {
 }
 
 #skillsSection {
+    background-image: url(assets/photos/pexels-goumbik-574073.jpg);
+    background-size: cover;
+
+    .overlay {
+        height: 100vh;
+        width: 100%;
+        background-color: #ffffff80;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            color: #3c3c3c;
+            padding-bottom: 68px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 800px;
+            gap: 27px;
+            padding-bottom: 164px;
+        }
+
+        li {
+            background-color: #00000071;
+            padding: 12px 17px;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 1.93rem;
+        }
+    }
 }
 
 #contactSection {
     background-color: #2343E3;
 }
 
-.downloadButton {
+.downloadButtonLight {
     background-color: #FF9E44;
 }
 
 .linkedinButton {
     background-color: #FEAF67;
     padding: 14px;
+}
+
+.downloadButtonDark {
+    background-color: #3c3c3c;
+    padd
 }
