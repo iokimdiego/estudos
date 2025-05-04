@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    padding: 1rem;
+}
+
+.styleButton{
+    margin: 15px 10px 15px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.styleButton:nth-child(1){
+    background-color: #fa6666;
+}
+.styleButton:nth-child(2){
+    background-color: #72fa66;
+}
+.styleButton:nth-child(3){
+    background-color: #769af6;
+}
+.styledParagraph{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#customTitle{
+    text-decoration: underline;
+    color: #8c00ea;
+}
+.boldText{
+    font-weight: bold;
+}
+#orangeTitle{
+    color: #f6a21a
+}
