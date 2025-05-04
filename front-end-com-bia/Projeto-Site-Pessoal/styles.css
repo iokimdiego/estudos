@@ -3,12 +3,13 @@
     --highlight-color: #ff9e44;
     --secondary-color: #ffffff;
     --darker-background: #222222;
+    --border-radius-base: 8px;
 }
 * {
     font-family: "Rubik", sans-serif;
 }
 section {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .titles {
@@ -23,7 +24,7 @@ section {
     width: fit-content;
     padding: 8px 14px;
     color: var(--secondary-color);
-    border-radius: 8px;
+    border-radius: var(--border-radius-base);
     cursor: pointer;
 
     a{
@@ -58,6 +59,10 @@ nav {
     li {
         padding-left: 72px;
     }
+
+    li:last-child{
+        font-weight: bold;
+    }
 }
 
 #homeSection {
@@ -76,13 +81,13 @@ nav {
     
     #photoHome {
         width: 40vw;
-        height: 100vh - 65px; /*65px é o tamanho da navbar*/
+        height: calc(100vh - 65px); /*65px é o tamanho da navbar*/
         background-image: url(assets/photos/smiley-man-working-laptop-from-home.jpg);
         background-size: cover;
         background-position: center;
     }
 
-    #textsHome {
+    #homeContents {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -103,6 +108,9 @@ nav {
         align-items: center;
 
         #textsAboutMeFlexItem {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
             width: 80%;
         }
     }
@@ -156,7 +164,7 @@ nav {
         li {
             background-color: #00000071;
             padding: 12px 17px;
-            border-radius: 8px;
+            border-radius: var(--border-radius-base);
             color: var(--secondary-color);
             font-size: 1.93rem;
         }
@@ -186,6 +194,8 @@ nav {
         }
 
         #textContactChild {
+            display: flex;
+            flex-direction: column;
             width: 80%;
             max-width: 700px;
         }
@@ -246,7 +256,7 @@ nav {
     a {
         background-color: #3756f3;
         padding: 12px;
-        border-radius: 8px;
+        border-radius: var(--border-radius-base);
         display: flex;
         align-items: center;
     }
@@ -258,4 +268,77 @@ nav {
 
 .linkIcon {
     width: 32px;
+}
+
+@media (orientation: portrait){
+    .titles {
+        font-size: 2.6rem;
+    }
+    #homeSection {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        h2 {
+            font-size: 1.71rem;
+        }
+
+        #photoHome {
+            width: 30vh;
+            height: 30vh;
+            border-radius: 50%;
+            margin-bottom: 3.8rem;
+        }
+
+        #homeTexts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    #photoAboutMe{
+        display: none;
+    }
+    #aboutSection{
+        #textsAboutMeFlexContainer{
+            width: 100vw;
+
+            #textsAboutMeFlexItem{
+                align-items: center;
+            }
+        }
+    }
+
+    #contactSection {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 3.5rem 0;
+
+        h1 {
+            text-align: center;
+        }
+
+        #textContactContainer{
+            width: 100vw;
+        }
+
+        #photoContact {
+            height: 30vh;
+            width: 30vh;
+            border-radius: 50%;
+            margin-bottom: 1.8rem;
+        }
+
+        #textContactChild{
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 750px){
+    nav {
+        display: none;
+    }
 }
