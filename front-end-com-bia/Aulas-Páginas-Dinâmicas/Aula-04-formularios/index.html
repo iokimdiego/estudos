@@ -12,11 +12,11 @@
     <form action="">
         <div>
             <label for="name">Seu nome:</label>
-            <input id="name" type="text" required>
+            <input id="name" name="name" type="text" required>
         </div>
         <div>
             <label for="email">E-mail:</label>
-            <input id="email" type="email" required>
+            <input id="email" name="email" type="email" required>
         </div>
         <div>
             <label for="email">Sexo:</label>
@@ -37,26 +37,26 @@
                 <label for="bad">Ruim</label>
             </div>
             <div>
-                <input type="radio" id="indifferent" name="opinion" value="good" required>
+                <input type="radio" id="indifferent" name="opinion" value="indifferent" required>
                 <label for="indifferent">Indiferente</label>
             </div>
         </fieldset>
         <fieldset id="geladinhos">
             <legend>Qual/Quais sabores você compraria de novo?</legend>
             <div>
-                <input type="checkbox" id="chocolate" name="geladinhos">
+                <input type="checkbox" id="chocolate" name="geladinhos" value="chocolate">
                 <label for="chocolate">Chocolate</label>
             </div>
             <div>
-                <input type="checkbox" id="morango" name="geladinhos">
+                <input type="checkbox" id="morango" name="geladinhos" value="morango">
                 <label for="morango">Morango</label>
             </div>
             <div>
-                <input type="checkbox" id="abacaxi" name="geladinhos">
+                <input type="checkbox" id="abacaxi" name="geladinhos" value="abacaxi">
                 <label for="abacaxi">Abacaxi</label>
             </div>
             <div>
-                <input type="checkbox" id="melancia" name="geladinhos">
+                <input type="checkbox" id="melancia" name="geladinhos" value="melancia">
                 <label for="melancia">Melancia</label>
             </div>
         </fieldset>
