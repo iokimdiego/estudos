@@ -28,7 +28,7 @@ form.addEventListener('submit', async (evento) => {
         body.geladinhos = formData.getAll('geladinhos');
         console.log(body);
         try {
-            await sendData(body);
+            await sendForm(body);
             document.body.innerHTML = '<h1>Formulário Enviado com sucesso!</h1>';
         } catch (err) {
             document.body.innerHTML = '<h1>Ops! Algo deu errado ao submeter o formulário!</h1>';     
