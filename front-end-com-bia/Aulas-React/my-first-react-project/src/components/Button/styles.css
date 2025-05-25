@@ -1,0 +1,32 @@
+
+.defaultButton {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 8px 14px;
+    color: var(--secondary-color);
+    border-radius: var(--border-radius-base);
+    cursor: pointer;
+
+    a{
+        padding-left: 11px;
+        text-decoration: none;
+        color: var(--secondary-color);
+    }
+    img {
+        color: #var(--secondary-color);
+    }
+}
+
+.downloadButtonLight {
+    background-color: var(--highlight-color);
+}
+
+.downloadButtonDark {
+    background-color: var(--primary-color);
+}
+
+.linkedinButton {
+    background-color: #FEAF67;
+    padding: 14px;
+}

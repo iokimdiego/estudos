@@ -1,68 +1,331 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    --primary-color: #3c3c3c;
+    --highlight-color: #ff9e44;
+    --secondary-color: #ffffff;
+    --darker-background: #222222;
+    --border-radius-base: 8px;
+}
+ol, ul {
+  list-style: none;
+}
+* {
+    font-family: "Rubik", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    min-height: 100vh;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+nav {
+    background-color: #ededed;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 63px;
+    box-shadow: 0px 4px 4px 0px #00000025;
+
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.titles {
+    color: var(--secondary-color);
+    font-size: 3.8rem; /*61px/16px (1rem=16px)*/
+    text-transform: uppercase;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+nav {
+    background-color: #ededed;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 63px;
+    box-shadow: 0px 4px 4px 0px #00000025;
+
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+#navBarLinks {
+    display: flex;
+
+    li {
+        padding-left: 72px;
+    }
+
+    li:last-child{
+        font-weight: bold;
+    }
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+#homeSection {
+    background-color: var(--darker-background);
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    h2 {
+        color: #b6b6b6;
+        font-weight: 400;
+        font-size: 2.4rem;
+        padding: 24px 0px 64px 0;
+    }
+    
+    #photoHome {
+        width: 40vw;
+        height: calc(100vh - 65px); /*65px é o tamanho da navbar*/
+        background-image: url(assets/photos/smiley-man-working-laptop-from-home.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #homeContents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+    }
+}
+
+#aboutSection {
+    background-color: var(--highlight-color);
+    display: flex;
+
+    #textsAboutMeFlexContainer {
+        padding-top: 65px;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #textsAboutMeFlexItem {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            width: 80%;
+        }
+    }
+
+    #photoAboutMe {
+        background-image: url(assets/photos/freepik__the-style-is-candid-image-photography-with-natural__87567.jpeg);
+        width: 40vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    p {
+        font-size: 1.75rem;
+        color: var(--secondary-color);
+        padding: 45px 0 56px 0;
+    }
+
+}
+
+#skillsSection {
+    background-image: url(assets/photos/pexels-goumbik-574073.jpg);
+    background-size: cover;
+
+    .overlay {
+        height: 100vh;
+        width: 100%;
+        background-color: #ffffff80;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            color: var(--primary-color);
+            padding-bottom: 68px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 800px;
+            gap: 27px;
+            padding-bottom: 164px;
+        }
+
+        li {
+            background-color: #00000071;
+            padding: 12px 17px;
+            border-radius: var(--border-radius-base);
+            color: var(--secondary-color);
+            font-size: 1.93rem;
+        }
+    }
+}
+
+#contactSection {
+    background-color: #2343E3;
+    display: flex;
+
+    #textContactContainer {
+        width: 60vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            padding-bottom: 60px;
+            text-decoration: underline;
+        }
+        
+        p {
+            color: var(--secondary-color);
+            font-size: 1.56rem;
+        }
+
+        #textContactChild {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            max-width: 700px;
+        }
+    }
+
+
+    #photoContact {
+        background-image: url(assets/photos/manager.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 40vw;
+        height: 100vh;
+    }
+}
+
+.customLineHeight {
+    line-height: 2.4rem;
+}
+
+.emailAndPhone {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-style: normal;
+
+    .itemContact {
+        display: flex;
+        align-items: center;
+        padding-top: 12px;
+
+        p {
+            padding-left: 14px;
+        }
+
+        .contactIcon{
+            width: 28px;
+        }
+    }
+}
+
+.socialMedia {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+
+    a {
+        background-color: #3756f3;
+        padding: 12px;
+        border-radius: var(--border-radius-base);
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        height: 28px;
+    }
+}
+
+.linkIcon {
+    width: 32px;
+}
+
+@media (orientation: portrait){
+    .titles {
+        font-size: 2.6rem;
+    }
+    #homeSection {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        h2 {
+            font-size: 1.71rem;
+        }
+
+        #photoHome {
+            width: 30vh;
+            height: 30vh;
+            border-radius: 50%;
+            margin-bottom: 3.8rem;
+        }
+
+        #homeTexts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    #photoAboutMe{
+        display: none;
+    }
+    #aboutSection{
+        #textsAboutMeFlexContainer{
+            width: 100vw;
+
+            #textsAboutMeFlexItem{
+                align-items: center;
+            }
+        }
+    }
+
+    #contactSection {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 3.5rem 0;
+
+        h1 {
+            text-align: center;
+        }
+
+        #textContactContainer{
+            width: 100vw;
+        }
+
+        #photoContact {
+            height: 30vh;
+            width: 30vh;
+            border-radius: 50%;
+            margin-bottom: 1.8rem;
+        }
+
+        #textContactChild{
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 750px){
+    nav {
+        display: none;
+    }
 }
