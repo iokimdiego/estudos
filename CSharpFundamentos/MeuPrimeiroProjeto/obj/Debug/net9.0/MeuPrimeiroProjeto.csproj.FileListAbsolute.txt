@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\refint\MeuPrimeiroProjeto.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\MeuPrimeiroProjeto\obj\Debug\net9.0\ref\MeuPrimeiroProjeto.dll
