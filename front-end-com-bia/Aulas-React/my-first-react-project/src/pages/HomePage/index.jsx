@@ -1,8 +1,19 @@
 
+import { useEffect, useState } from "react";
 import Button from "../../components/Button";
 
 const HomePage = () => {
-    const resumeDownloadComplete = true;
+    const [resumeDownloadComplete, setResumeDownloadComplete] = useState(false);
+    useEffect(() => {
+        setTimeout(() => {
+            // supondo que dê certo a request que traz o currículo
+            setResumeDownloadComplete(true);
+        }, 5000)
+    }, []);
+    
+    // const resumeDownloadComplete = true;
+   
+   
     // const erro = true;
 
     // if (erro){
