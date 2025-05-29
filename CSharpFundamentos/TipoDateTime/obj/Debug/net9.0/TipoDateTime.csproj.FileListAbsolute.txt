@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\bin\Debug\net9.0\TipoDateTime.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\bin\Debug\net9.0\TipoDateTime.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\bin\Debug\net9.0\TipoDateTime.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\bin\Debug\net9.0\TipoDateTime.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\bin\Debug\net9.0\TipoDateTime.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\TipoDateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\TipoDateTime.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\TipoDateTime.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\TipoDateTime.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\TipoDateTime.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\TipoDateTime.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\refint\TipoDateTime.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\TipoDateTime.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\TipoDateTime.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\TipoDateTime\obj\Debug\net9.0\ref\TipoDateTime.dll
