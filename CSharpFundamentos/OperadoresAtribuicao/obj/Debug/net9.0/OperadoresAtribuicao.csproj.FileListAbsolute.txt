@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\bin\Debug\net9.0\OperadoresAtribuicao.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\bin\Debug\net9.0\OperadoresAtribuicao.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\bin\Debug\net9.0\OperadoresAtribuicao.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\bin\Debug\net9.0\OperadoresAtribuicao.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\bin\Debug\net9.0\OperadoresAtribuicao.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\OperadoresAtribuicao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\OperadoresAtribuicao.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\OperadoresAtribuicao.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\OperadoresAtribuicao.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\OperadoresAtribuicao.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\OperadoresAtribuicao.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\refint\OperadoresAtribuicao.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\OperadoresAtribuicao.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\OperadoresAtribuicao.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\OperadoresAtribuicao\obj\Debug\net9.0\ref\OperadoresAtribuicao.dll
