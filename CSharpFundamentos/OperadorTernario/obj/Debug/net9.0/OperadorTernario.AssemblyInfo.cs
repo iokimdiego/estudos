@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OperadorTernario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef0825aa44612e4e9113fdcc10b9fb7092c27a57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9657698f81bf4e108453d86ce3621d861b7264c")]
 [assembly: System.Reflection.AssemblyProductAttribute("OperadorTernario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OperadorTernario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
