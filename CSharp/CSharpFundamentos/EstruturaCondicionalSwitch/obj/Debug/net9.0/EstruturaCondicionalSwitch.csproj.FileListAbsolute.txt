@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\bin\Debug\net9.0\EstruturaCondicionalSwitch.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\bin\Debug\net9.0\EstruturaCondicionalSwitch.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\bin\Debug\net9.0\EstruturaCondicionalSwitch.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\bin\Debug\net9.0\EstruturaCondicionalSwitch.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\bin\Debug\net9.0\EstruturaCondicionalSwitch.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\EstruturaCondicionalSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\EstruturaCondicionalSwitch.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\EstruturaCondicionalSwitch.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\EstruturaCondicionalSwitch.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\EstruturaCondicionalSwitch.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\EstruturaCondicionalSwitch.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\refint\EstruturaCondicionalSwitch.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\EstruturaCondicionalSwitch.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\EstruturaCondicionalSwitch.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\EstruturaCondicionalSwitch\obj\Debug\net9.0\ref\EstruturaCondicionalSwitch.dll
