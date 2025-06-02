@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("OperadoresAtribuicao")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("EstruturaCondicionalIf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c7dd90d1784708c862275256493900f373b3197")]
-[assembly: System.Reflection.AssemblyProductAttribute("OperadoresAtribuicao")]
-[assembly: System.Reflection.AssemblyTitleAttribute("OperadoresAtribuicao")]
+[assembly: System.Reflection.AssemblyProductAttribute("EstruturaCondicionalIf")]
+[assembly: System.Reflection.AssemblyTitleAttribute("EstruturaCondicionalIf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

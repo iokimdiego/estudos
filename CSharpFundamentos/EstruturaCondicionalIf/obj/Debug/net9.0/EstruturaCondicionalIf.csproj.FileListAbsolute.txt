@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\bin\Debug\net9.0\EstruturaCondicionalIf.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\bin\Debug\net9.0\EstruturaCondicionalIf.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\bin\Debug\net9.0\EstruturaCondicionalIf.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\bin\Debug\net9.0\EstruturaCondicionalIf.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\bin\Debug\net9.0\EstruturaCondicionalIf.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\EstruturaCondicionalIf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\EstruturaCondicionalIf.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\EstruturaCondicionalIf.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\EstruturaCondicionalIf.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\EstruturaCondicionalIf.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\EstruturaCondicionalIf.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\refint\EstruturaCondicionalIf.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\EstruturaCondicionalIf.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\EstruturaCondicionalIf.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharpFundamentos\EstruturaCondicionalIf\obj\Debug\net9.0\ref\EstruturaCondicionalIf.dll
