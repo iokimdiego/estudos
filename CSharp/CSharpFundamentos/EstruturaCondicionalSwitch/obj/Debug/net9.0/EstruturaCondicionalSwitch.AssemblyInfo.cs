@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstruturaCondicionalSwitch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95fbf0beb3e370dd6905691e5b70ec2c8add2a9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f0197d5bbecc10dc11d40ab83f315d9351bc594")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstruturaCondicionalSwitch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstruturaCondicionalSwitch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
