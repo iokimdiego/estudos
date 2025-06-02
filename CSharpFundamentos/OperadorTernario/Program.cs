@@ -12,7 +12,6 @@ class Program
         mensagem = nota >= 7 ? "Aprovado" : "Reprovado";
 
         Console.WriteLine(mensagem);
-        // explique o que foi feito no código, em poucas palavras e em inglês técnico
-        // The code uses a ternary operator to assign a message based on the value of 'nota'.
+        
     }
 }
