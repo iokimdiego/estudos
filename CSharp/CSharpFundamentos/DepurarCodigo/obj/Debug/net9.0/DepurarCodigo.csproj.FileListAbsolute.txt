@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\bin\Debug\net9.0\DepurarCodigo.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\bin\Debug\net9.0\DepurarCodigo.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\bin\Debug\net9.0\DepurarCodigo.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\bin\Debug\net9.0\DepurarCodigo.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\bin\Debug\net9.0\DepurarCodigo.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\DepurarCodigo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\DepurarCodigo.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\DepurarCodigo.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\DepurarCodigo.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\DepurarCodigo.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\DepurarCodigo.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\refint\DepurarCodigo.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\DepurarCodigo.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\DepurarCodigo.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DepurarCodigo\obj\Debug\net9.0\ref\DepurarCodigo.dll
