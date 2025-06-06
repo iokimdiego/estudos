@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\bin\Debug\net9.0\DefinindoNamespaces.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\bin\Debug\net9.0\DefinindoNamespaces.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\bin\Debug\net9.0\DefinindoNamespaces.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\bin\Debug\net9.0\DefinindoNamespaces.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\bin\Debug\net9.0\DefinindoNamespaces.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\DefinindoNamespaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\DefinindoNamespaces.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\DefinindoNamespaces.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\DefinindoNamespaces.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\DefinindoNamespaces.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\DefinindoNamespaces.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\refint\DefinindoNamespaces.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\DefinindoNamespaces.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\DefinindoNamespaces.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\DefinindoNamespaces\obj\Debug\net9.0\ref\DefinindoNamespaces.dll

@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\bin\Debug\net9.0\TrabalhandoComMetodos.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\bin\Debug\net9.0\TrabalhandoComMetodos.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\bin\Debug\net9.0\TrabalhandoComMetodos.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\bin\Debug\net9.0\TrabalhandoComMetodos.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\bin\Debug\net9.0\TrabalhandoComMetodos.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\TrabalhandoComMetodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\TrabalhandoComMetodos.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\TrabalhandoComMetodos.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\TrabalhandoComMetodos.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\TrabalhandoComMetodos.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\TrabalhandoComMetodos.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\refint\TrabalhandoComMetodos.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\TrabalhandoComMetodos.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\TrabalhandoComMetodos.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComMetodos\obj\Debug\net9.0\ref\TrabalhandoComMetodos.dll

@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\bin\Debug\net9.0\TrabalhandoComClasses.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\bin\Debug\net9.0\TrabalhandoComClasses.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\bin\Debug\net9.0\TrabalhandoComClasses.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\bin\Debug\net9.0\TrabalhandoComClasses.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\bin\Debug\net9.0\TrabalhandoComClasses.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\TrabalhandoComClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\TrabalhandoComClasses.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\TrabalhandoComClasses.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\TrabalhandoComClasses.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\TrabalhandoComClasses.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\TrabalhandoComClasses.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\refint\TrabalhandoComClasses.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\TrabalhandoComClasses.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\TrabalhandoComClasses.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\TrabalhandoComClasses\obj\Debug\net9.0\ref\TrabalhandoComClasses.dll
