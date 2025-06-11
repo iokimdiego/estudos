@@ -11,12 +11,12 @@ class Program
         conta.DataAbertura = DateTime.Today;
         conta.Saldo = 0;
 
-        conta.ExibirExtrato();
+        Console.WriteLine(conta.ExibirExtrato()); // Exibe o extrato da conta no console
         conta.Depositar(1000); // Deposita R$ 1000,00 chamando o método Depositar
-        conta.ExibirExtrato();
+        Console.WriteLine(conta.ExibirExtrato()); // Exibe o extrato da conta no console
         conta.Sacar(500); // Realiza um saque de R$ 500,00 chamando o método Sacar
-        conta.ExibirExtrato();
+        Console.WriteLine(conta.ExibirExtrato()); // Exibe o extrato da conta no console
         conta.Sacar(600); // Tenta sacar R$ 600,00, mas não tem saldo suficiente
-        conta.ExibirExtrato();
+        Console.WriteLine(conta.ExibirExtrato()); // Exibe o extrato da conta no console
     }
 }

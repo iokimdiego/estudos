@@ -11,13 +11,25 @@ namespace Contas
 
         // Métodos da classe Conta
         // Métodos são as ações que a classe pode realizar
-        public void ExibirExtrato()
+
+        // public void ExibirExtrato() // Método para exibir o extrato da conta no console
+        // // Não recebe parâmetros e não retorna nada
+        // {
+        //     Console.WriteLine("===================================");
+        //     Console.WriteLine($"Número da Conta:..........{Numero}");
+        //     Console.WriteLine($"Data de Abertura:.........{DataAbertura.ToShortDateString()}");
+        //     Console.WriteLine($"Saldo Atual:..............{Saldo:C}"); // Formata o saldo como moeda
+        //     Console.WriteLine("===================================");
+        // }
+        public string ExibirExtrato() // Método para exibir o saldo da conta no console
+        // Não recebe parâmetros e retorna o saldo formatado como string     
         {
-            Console.WriteLine("===================================");
-            Console.WriteLine($"Número da Conta:..........{Numero}");
-            Console.WriteLine($"Data de Abertura:.........{DataAbertura.ToShortDateString()}");
-            Console.WriteLine($"Saldo Atual:..............{Saldo:C}"); // Formata o saldo como moeda
-            Console.WriteLine("===================================");
+            // Console.WriteLine("===================================");
+            return $"=================================== {Environment.NewLine}" +
+                   $"Número da Conta:..........{Numero}{Environment.NewLine}" + // Environment.NewLine adiciona uma quebra de linha
+                   $"Data de Abertura:.........{DataAbertura.ToShortDateString()}{Environment.NewLine}" +
+                   $"Saldo Atual:..............{Saldo:C}{Environment.NewLine}" + // Formata o saldo como moeda
+                   "===================================";
         }
 
         public void Depositar(decimal valor)
