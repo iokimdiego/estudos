@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlocoTryCatch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1099e222e20d24dc9f6ed1212574439c101f10b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dce9cb82b7f32e9457b7dda88a88454f99dbb63f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlocoTryCatch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlocoTryCatch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
