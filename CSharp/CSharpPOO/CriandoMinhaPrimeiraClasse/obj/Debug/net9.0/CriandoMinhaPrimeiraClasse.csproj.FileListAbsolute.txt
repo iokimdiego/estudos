@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\bin\Debug\net9.0\CriandoMinhaPrimeiraClasse.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\bin\Debug\net9.0\CriandoMinhaPrimeiraClasse.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\bin\Debug\net9.0\CriandoMinhaPrimeiraClasse.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\bin\Debug\net9.0\CriandoMinhaPrimeiraClasse.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\bin\Debug\net9.0\CriandoMinhaPrimeiraClasse.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\CriandoMinhaPrimeiraClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\CriandoMinhaPrimeiraClasse.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\CriandoMinhaPrimeiraClasse.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\CriandoMinhaPrimeiraClasse.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\CriandoMinhaPrimeiraClasse.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\CriandoMinhaPrimeiraClasse.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\refint\CriandoMinhaPrimeiraClasse.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\CriandoMinhaPrimeiraClasse.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\CriandoMinhaPrimeiraClasse.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\CriandoMinhaPrimeiraClasse\obj\Debug\net9.0\ref\CriandoMinhaPrimeiraClasse.dll

@@ -1,9 +1,18 @@
-﻿namespace CriandoMinhaPrimeiraClasse;
+﻿using Contas;
+
+namespace CriandoMinhaPrimeiraClasse;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var conta = new Conta();
+        conta.Numero = "12345-6";
+        conta.DataAbertura = DateTime.Today;
+        conta.Saldo = 0;
+
+        Console.WriteLine(conta.Numero);
+        Console.WriteLine(conta.DataAbertura);
+        Console.WriteLine(conta.Saldo);
     }
 }
