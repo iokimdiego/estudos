@@ -57,5 +57,18 @@ namespace Contas
             Saldo -= valor;
             Console.WriteLine($"Saque de {valor:C} realizado com sucesso.");
         }
+
+        // Sobrecarga do método RealizarEmprestimo
+        public void RealizarEmprestimo(decimal valor)
+        {
+            Saldo += valor;
+            Console.WriteLine($"O valor de {valor:C} foi creditado e será debitado dentro de 30 dias.");
+        }
+        public void RealizarEmprestimo(decimal valor, int parcelas)
+        {
+            Saldo += valor;
+            Console.WriteLine($"O valor de {valor:C} foi creditado e será debitado em {parcelas} vezes.");
+        }
+
     }
 }
