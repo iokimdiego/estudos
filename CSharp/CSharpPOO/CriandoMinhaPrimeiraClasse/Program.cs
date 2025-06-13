@@ -11,6 +11,9 @@ class Program
         conta.DataAbertura = DateTime.Today;
         conta.Saldo = 100;
         conta.RealizarEmprestimo(200, 10); // Realiza um empréstimo de R$ 200,00 chamando o método RealizarEmprestimo
+        
+        Console.WriteLine(Conta.TaxaRendimento); // Exibe a taxa de rendimento da conta no console
+        Console.WriteLine(Conta.CalcularRendimento(100, 12)); // Exibe o rendimento de R$ 100,00 em 12 meses chamando o método CalcularRendimento
 
         Console.WriteLine(conta.ExibirExtrato()); // Exibe o extrato da conta no console
         conta.Depositar(1000); // Deposita R$ 1000,00 chamando o método Depositar

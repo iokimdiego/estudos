@@ -5,6 +5,8 @@ namespace Contas
     {
         // Atributos da classe Conta
         // Atributos são as características que definem a classe
+        public static double TaxaRendimento = 0.05f; // Atributo estático que representa a taxa de rendimento da conta
+        // Atributos de instância
         public string Numero = "";
         public DateTime DataAbertura;
         public decimal Saldo;
@@ -68,6 +70,13 @@ namespace Contas
         {
             Saldo += valor;
             Console.WriteLine($"O valor de {valor:C} foi creditado e será debitado em {parcelas} vezes.");
+        }
+
+        public static double CalcularRendimento(double capital, int meses)
+        {
+            // Método estático para calcular o rendimento de um capital investido por um determinado número de meses
+            // Recebe o capital e o número de meses como parâmetros e retorna o rendimento calculado
+            return capital * Math.Pow(1 + TaxaRendimento, meses);
         }
 
     }
