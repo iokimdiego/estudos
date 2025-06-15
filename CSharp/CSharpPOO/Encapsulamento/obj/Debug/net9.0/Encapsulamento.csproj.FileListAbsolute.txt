@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\refint\Encapsulamento.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpPOO\Encapsulamento\obj\Debug\net9.0\ref\Encapsulamento.dll
