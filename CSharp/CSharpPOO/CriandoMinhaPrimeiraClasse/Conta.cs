@@ -14,6 +14,23 @@ namespace Contas
         // Métodos da classe Conta
         // Métodos são as ações que a classe pode realizar
 
+        // O primeiro método é o construtor da classe, que é chamado quando um objeto da classe é criado
+        public Conta() // Construtor padrão da classe Conta
+        {
+            Numero = DateTime.Now.ToString("yyyyMMddHHmmss"); // Gera um número de conta baseado na data e hora atual
+            DataAbertura = DateTime.Now; // Define a data de abertura como a data e hora atual
+            Saldo = 0; // Define o saldo inicial como zero
+            // Não recebe parâmetros e não retorna nada
+            // Inicializa os atributos com valores padrão
+        }
+        public Conta(string numero, DateTime dataAbertura, decimal saldo) // Construtor com parâmetros
+        {
+            Numero = numero; // Atribui o número da conta
+            DataAbertura = dataAbertura; // Atribui a data de abertura
+            Saldo = saldo; // Atribui o saldo inicial
+            // Recebe os valores dos atributos como parâmetros e os inicializa
+        }
+
         // public void ExibirExtrato() // Método para exibir o extrato da conta no console
         // // Não recebe parâmetros e não retorna nada
         // {
