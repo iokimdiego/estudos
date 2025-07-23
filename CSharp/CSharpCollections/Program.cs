@@ -2,4 +2,5 @@
 
 // AulaArrays.main();
 // AulaListas.main();
-AulaColecoes.main();
+// AulaColecoes.main();
+AulaDicionarios.main();
