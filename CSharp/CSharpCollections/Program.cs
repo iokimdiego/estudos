@@ -5,4 +5,5 @@
 // AulaColecoes.main();
 // AulaDicionarios.main();
 // AulaListasLigadas.main();
-AulaFilas.main();
+// AulaFilas.main();
+AulaPilhas.main();
