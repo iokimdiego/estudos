@@ -15,6 +15,7 @@ public class AulaPilhas
         imprimir(pilha);
 
         pilha.Pop(); // Remove o último elemento (José)
+
         imprimir(pilha);
     }
     private static void imprimir(Stack<string> pilha)
