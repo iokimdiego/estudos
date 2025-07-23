@@ -3,4 +3,5 @@
 // AulaArrays.main();
 // AulaListas.main();
 // AulaColecoes.main();
-AulaDicionarios.main();
+// AulaDicionarios.main();
+AulaListasLigadas.main();
