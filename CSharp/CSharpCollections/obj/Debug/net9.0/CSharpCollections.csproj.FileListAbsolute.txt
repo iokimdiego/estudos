@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\bin\Debug\net9.0\CSharpCollections.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\bin\Debug\net9.0\CSharpCollections.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\bin\Debug\net9.0\CSharpCollections.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\bin\Debug\net9.0\CSharpCollections.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\bin\Debug\net9.0\CSharpCollections.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\CSharpCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\CSharpCollections.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\CSharpCollections.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\CSharpCollections.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\CSharpCollections.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\CSharpCollections.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\refint\CSharpCollections.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\CSharpCollections.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\CSharpCollections.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpCollections\obj\Debug\net9.0\ref\CSharpCollections.dll
