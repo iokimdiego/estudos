@@ -1,3 +1,4 @@
 ﻿using CSharpCollections;
 
-AulaArrays.main();
+// AulaArrays.main();
+AulaListas.main();
