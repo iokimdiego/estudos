@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpLINQFiltros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3093b62167db4b19100d72887b36b08775e84194")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e98a02802a4ff0459664b543a4acc88010f9f2bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpLINQFiltros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpLINQFiltros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

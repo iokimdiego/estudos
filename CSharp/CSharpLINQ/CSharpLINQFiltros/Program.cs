@@ -12,7 +12,9 @@ class Program
     static void Main(string[] args)
     {
         var despesasVencidas = from d in despesas
-                               where d.Vencimento < DateTime.Now // Filtra despesas vencidas
+                                   //    where d.Vencimento < DateTime.Now // Filtra despesas vencidas
+                               where d.Valor > 100.00m // Filtra despesas com valor maior que 100
+                               orderby d.Vencimento descending, d.Valor // Ordena por vencimento decrescente e valor ascendente
                                select d;
 
         Console.WriteLine("Despesas Vencidas:");
