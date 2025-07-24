@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\bin\Debug\net9.0\CSharpLINQJuncoes.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\bin\Debug\net9.0\CSharpLINQJuncoes.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\bin\Debug\net9.0\CSharpLINQJuncoes.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\bin\Debug\net9.0\CSharpLINQJuncoes.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\bin\Debug\net9.0\CSharpLINQJuncoes.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\CSharpLINQJuncoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\CSharpLINQJuncoes.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\CSharpLINQJuncoes.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\CSharpLINQJuncoes.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\CSharpLINQJuncoes.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\CSharpLINQJuncoes.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\refint\CSharpLINQJuncoes.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\CSharpLINQJuncoes.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\CSharpLINQJuncoes.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQJuncoes\obj\Debug\net9.0\ref\CSharpLINQJuncoes.dll
