@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\bin\Debug\net9.0\CSharpLINQFiltros.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\bin\Debug\net9.0\CSharpLINQFiltros.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\bin\Debug\net9.0\CSharpLINQFiltros.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\bin\Debug\net9.0\CSharpLINQFiltros.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\bin\Debug\net9.0\CSharpLINQFiltros.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\CSharpLINQFiltros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\CSharpLINQFiltros.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\CSharpLINQFiltros.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\CSharpLINQFiltros.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\CSharpLINQFiltros.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\CSharpLINQFiltros.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\refint\CSharpLINQFiltros.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\CSharpLINQFiltros.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\CSharpLINQFiltros.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQFiltros\obj\Debug\net9.0\ref\CSharpLINQFiltros.dll
