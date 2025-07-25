@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "CSharpLINQDelegates_Action_Func_Predicate/1.0.0": {
+        "runtime": {
+          "CSharpLINQDelegates_Action_Func_Predicate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpLINQDelegates_Action_Func_Predicate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

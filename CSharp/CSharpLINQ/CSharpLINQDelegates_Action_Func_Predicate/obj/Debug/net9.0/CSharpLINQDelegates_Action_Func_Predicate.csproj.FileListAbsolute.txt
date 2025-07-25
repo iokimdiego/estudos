@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\bin\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\bin\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\bin\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\bin\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\bin\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\refint\CSharpLINQDelegates_Action_Func_Predicate.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\CSharpLINQDelegates_Action_Func_Predicate.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates_Action_Func_Predicate\obj\Debug\net9.0\ref\CSharpLINQDelegates_Action_Func_Predicate.dll
