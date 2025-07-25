@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CSharpLINQFiltros")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CSharpLINQDelegates")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0ce184fb4e0c5ec60b6a106d27d7d28c131e81e")]
-[assembly: System.Reflection.AssemblyProductAttribute("CSharpLINQFiltros")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CSharpLINQFiltros")]
+[assembly: System.Reflection.AssemblyProductAttribute("CSharpLINQDelegates")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CSharpLINQDelegates")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

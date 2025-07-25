@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\bin\Debug\net9.0\CSharpLINQDelegates.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\bin\Debug\net9.0\CSharpLINQDelegates.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\bin\Debug\net9.0\CSharpLINQDelegates.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\bin\Debug\net9.0\CSharpLINQDelegates.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\bin\Debug\net9.0\CSharpLINQDelegates.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\CSharpLINQDelegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\CSharpLINQDelegates.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\CSharpLINQDelegates.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\CSharpLINQDelegates.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\CSharpLINQDelegates.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\CSharpLINQDelegates.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\refint\CSharpLINQDelegates.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\CSharpLINQDelegates.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\CSharpLINQDelegates.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\CSharpLINQDelegates\obj\Debug\net9.0\ref\CSharpLINQDelegates.dll
