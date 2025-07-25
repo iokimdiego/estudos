@@ -22,5 +22,17 @@ class Program
         {
             Console.WriteLine(despesa);
         }
+
+        // Projeção de dados
+
+        var resultado = from d in despesas
+                            // select d.Descricao; // Projeta apenas a descrição das despesas
+                        select new { d.Descricao, d.Valor, ValorComDesconto = d.Valor * 0.9m }; // Projeta descrição e valor das despesas
+        Console.WriteLine("------------------------");
+        Console.WriteLine("\nDescrições das Despesas:");
+        foreach (var descricao in resultado)
+        {
+            Console.WriteLine(descricao);
+        }
     }
 }
