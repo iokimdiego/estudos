@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpLINQDelegates")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0ce184fb4e0c5ec60b6a106d27d7d28c131e81e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a14ea6c3b920a690a87ead0f153c322caa5b87d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpLINQDelegates")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpLINQDelegates")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
