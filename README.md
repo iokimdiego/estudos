@@ -1,24 +1,24 @@
 # 📚 Repositório de Estudos
 
-Bem-vindo ao meu repositório de estudos! 🚀 Aqui você encontrará exercícios práticos de programação, projetos de cursos e testes que realizo para aprimorar minhas habilidades como **Desenvolvedor Full Stack PHP**.
+Bem-vindo ao meu repositório de estudos! 🚀 Aqui você encontrará exercícios práticos de programação, projetos de cursos e testes que realizo para aprimorar minhas habilidades como **Desenvolvedor Full Stack**.
 
 ## 📌 Sobre este repositório
 
-Este repositório foi criado para documentar minha jornada de aprendizado em **PHP, MySQL, HTML, CSS, Bootstrap e JavaScript**. Ele contém desde conceitos básicos até aplicações mais avançadas, organizadas conforme os cursos e treinamentos que estou realizando.
+Este repositório foi criado para documentar minha jornada de aprendizado em **C# .NET, PHP, MySQL, HTML, CSS, Bootstrap e JavaScript**. Ele contém desde conceitos básicos a aplicações mais avançadas, organizadas conforme os cursos e treinamentos que estou realizando.
 
 ## 📂 Estrutura do Repositório
 
+- **CSharp**: Diretório dedicado à Linguagem de Programação C#
+- **PHP**: Diretório dedicado à Linguagem de Programação PHP
 - **aprendendo-javascript-CDC**: Módulo de Javascript no Curso de Front-End da Bia Codes na Comunidade DEV Completo
-- **Cursos**: Contém exercícios e projetos desenvolvidos durante cursos online e treinamentos.
-- **Testes individuais**: Pequenos experimentos com tecnologias e conceitos que estou explorando.
-- **Desafios**: Resolução de desafios de programação para reforçar conhecimentos.
+- **front-end-com-bia**: Curso de Desenvolvimento Front-End da Bia Codes, na Comunidade DEV Completo.
 
 ## 🛠 Tecnologias e Ferramentas
 
 Atualmente, estou focado em aprender e aplicar as seguintes tecnologias:
 
-- 🔹 **Linguagens**: PHP, JavaScript, HTML5, CSS3  
-- 🔹 **Banco de Dados**: MySQL  
+- 🔹 **Linguagens**: C#, JavaScript Moderno, HTML5, CSS3
+- 🔹 **Banco de Dados**: MySQL, SQL Server  
 - 🔹 **Frameworks e Bibliotecas**: Bootstrap  
 - 🔹 **Ferramentas**: Git/GitHub  
 
