@@ -47,7 +47,7 @@ int main() {
         printf("2 - Listar todos os livros\n");
         printf("0 - Sair\n");
         printf("-------------------------------------------\n");
-        printf("Escolha uma opção: ");
+        printf("Escolha uma opcao: ");
 
         // Lê a opção do usuário.
         scanf("%d", &opcao);
@@ -123,3 +123,5 @@ int main() {
 
     return 0; // Fim do programa.
 }
+
+//https://github.com/EstruturaDados/war-iokimdiego
