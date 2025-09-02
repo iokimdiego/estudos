@@ -23,3 +23,25 @@ echo "<br>";
 
 var_dump($a >= $b); // A é maior ou igual que B?
 echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$d = 10;
+$e = "10";
+
+echo "o valor de d é igual a e (a == e)?: ";
+var_dump($d == $e);
+echo "<br>";
+
+echo "o valor e o tipo de d são iguais a e (a === e)?: ";
+var_dump($d === $e);
+echo "<br>";
+echo "<br>";
+
+echo "o valor de d é diferente de e (a != e)?: ";
+var_dump($d != $e);
+echo "<br>";
+
+echo "o valor e o tipo de d são diferentes de e (a !== e)?: ";
+var_dump($d !== $e);
+echo "<br>";
