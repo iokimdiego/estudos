@@ -1,6 +1,7 @@
 <?php
 
 $linguagem = ["PHP", "C#", "Java"];
+$linguagem2 = array("PHP", "C#", "Java");
 
 echo $linguagem[0];
 echo "<br>";
@@ -40,7 +41,7 @@ $numeros = [
 
 echo $numeros[0][2]; // retorna o número que está na primeira linha [0] e 3ª coluna [2]. Resultado = 3
 echo "<br>";
-echo $numeros[2][1]; // retorna o número que está na primeira linha [0] e 3ª coluna [2]. Resultado = 3
+echo $numeros[2][1]; // retorna o número que está na primeira linha [2] e 3ª coluna [1]. Resultado = 11
 echo "<br>";
 echo "<br>";
 echo "<br>";
@@ -63,16 +64,20 @@ $cursos = [
 echo $cursos["php"]["nome_curso"];
 echo "<br>";
 echo $cursos["java"]["nome_curso"];
+echo "<br>";
+echo "<br>";
 
 
 
 // Adicionar novos itens ao array
 $linguagem[3] = "Python";
 var_dump($linguagem);
-
-$cursos["php"]["pre-requisito"] = "Lógica de Programação";
 echo "<br>";
-echo $cursos["php"]["pre-requisito"];
+
+$cursos["php"]["pre-requisito"] = "Lógica de Programação"; // Adiciona a nova chave "Pré-Requisito"
+echo "<br>";
+echo $cursos["php"]["pre-requisito"]; // Exige a nova chave "Pré-Requisito
+echo "<br>";
 
 $paises = [
     'Namibia',
