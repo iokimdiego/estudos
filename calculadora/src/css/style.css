@@ -1,0 +1,59 @@
+/* Criação de Variáveis */
+
+:root {
+    --background-color: #5E6B7C;
+    --btn-color:#F2F3F7;
+    --numero-color: #0D0F1A;
+    --especiais-color: #67687b;
+    --border-radius-base: 20px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* Reset básico de CSS */
+* {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Estilização dos botões */
+
+.btn {
+    /* padding: 8px; */
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--numero-color);
+    background-color: var(--btn-color);
+    border: 0;
+    border-radius: var(--border-radius-base);
+    
+}
+
+/* Aplica estilos específicos para os 3 primeiros filhos da classe "botoes" */
+.botoes :nth-child(-n+3) {
+    color: var(--especiais-color);
+}
+
+.operador {
+    color: #E5972A;
+}
