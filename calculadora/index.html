@@ -7,36 +7,40 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <div class="calculadora">
-        <div class="historico">
-            <h4>Histórico</h4>
-            <ul id="historico-lista"></ul>
+    <section class="box-calculadora">
+        <div class="display">
+            <div class="display-historico">
+                <h4>Histórico</h4>
+                <ul id="historico-lista"></ul>
+            </div>
+            <div class="display-calculo">
+                <h1>0</h1>
+            </div>
         </div>
-        <div class="display" id="display">
-            <h1>0</h1>
+        <div class="teclas-calculadora">
+            <div class="botoes">
+                <button class="btn limpar">AC</button>
+                <button class="btn negativo">+/-</button>
+                <button class="btn percentual">%</button>
+                <button class="btn operador">/</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn operador">x</button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn operador">-</button>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn operador">+</button>
+                <button class="btn zero" id="zero">0</button>
+                <button class="btn ponto">.</button>
+                <button class="btn igual">=</button>
+            </div>
         </div>
-        <div class="botoes">
-            <button class="btn limpar">AC</button>
-            <button class="btn negativo">+/-</button>
-            <button class="btn percentual">%</button>
-            <button class="btn operador">/</button>
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn operador">x</button>
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn operador">-</button>
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn operador">+</button>
-            <button class="btn zero">0</button>
-            <button class="btn ponto">.</button>
-            <button class="btn igual">=</button>
-        </div>
-    </div>
+    </section>
     <script src="src/js/script.js"></script>
 </body>
 </html>
