@@ -51,9 +51,7 @@ Uso do LocalStorage para salvar dados no navegador
 
 Organização de pastas em um projeto frontend
 
-📸 Preview (sugestão)
-
-(aqui você pode colocar um print da sua calculadora quando estiver finalizada)
+📸 Preview
 
 ![Preview da Calculadora](assets/img/preview.png)
 
