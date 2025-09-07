@@ -3,8 +3,6 @@
 // Salva o resultado num array e mostra no histórico
 // Opcional: Salva o histórico no localStorage
 
-renderHistorico(); // Mostra o histórico quando a página carrega
-atualizarDisplay(atual); // Mostra o valor inicial no display
 
 // Passo 0: pegar os elementos do HTML que vou precisar
 const displayValor = document.querySelector('#display-calculo h1');
@@ -36,7 +34,7 @@ function salvarHistorico(item) {
         historico.pop(); // Remove o último item se tiver mais de 10
     }
     localStorage.setItem('calcHistory', JSON.stringify(historico)); // Salva no localStorage
-    renderizarHistorico(); // Atualiza a lista do histórico na tela
+    renderHistorico(); // Atualiza a lista do histórico na tela
 }
 
 // Renderiza o histórico na tela
@@ -165,3 +163,37 @@ function percentual() {
     valorAtual = (parseFloat(valorAtual) / 100).toString(); // Divide por 100
     atualizarDisplay(valorAtual);
 }
+
+// --------------------------------------------------------------------
+// Passo 7: gerenciar cliques nos botões
+
+botoes.forEach(botao => {
+    botao.addEventListener('click', () => {
+        const valor = botao.textContent;
+
+        if (botao.classList.contains('limpar')) return limparTudo();
+        if (botao.classList.contains('negativo')) return inverterSinal();
+        if (botao.classList.contains('percentual')) return percentual();
+        if (botao.classList.contains('operador')) return definirOperador(valor);
+        if (botao.classList.contains('igual')) return calcular();
+        if (botao.classList.contains('ponto')) return inserirPonto();
+        
+        // Se não for nenhum dos acima, é um número
+        if (/^\d$/.test(valor)) { // Verifica se é um dígito (0-9)
+            return inserirNumero(valor);
+        }
+    });
+});
+
+// --------------------------------------------------------------------
+// Inicialização da calculadora ao carregar a página
+renderHistorico(); // Mostra o histórico quando a página carrega
+atualizarDisplay(valorAtual); // Mostra o valor inicial no display
+
+// Seleciona o botão 7
+const botaoSete = document.querySelector(".btn:nth-child(5)");
+
+// Adiciona um evento de clique
+botaoSete.addEventListener("click", function() {
+    console.log("Botão 7 foi clicado!");
+});
