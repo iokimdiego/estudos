@@ -1,7 +1,7 @@
 // Gerencia cliques nos botões
 // Faz os cálculos usando JS
 // Salva o resultado num array e mostra no histórico
-// Opcional: Salva o histórico no localStorage
+// Salva o histórico no localStorage
 
 
 // Passo 0: pegar os elementos do HTML que vou precisar
@@ -30,8 +30,8 @@ function atualizarDisplay(valor) {
 // Salva o histórico na tela
 function salvarHistorico(item) {
     historico.unshift(item); // Adiciona no começo do array
-    if (historico.length > 10) {
-        historico.pop(); // Remove o último item se tiver mais de 10
+    if (historico.length > 5) {
+        historico.pop(); // Remove o último item se tiver mais de 5
     }
     localStorage.setItem('calcHistory', JSON.stringify(historico)); // Salva no localStorage
     renderHistorico(); // Atualiza a lista do histórico na tela
@@ -190,10 +190,20 @@ botoes.forEach(botao => {
 renderHistorico(); // Mostra o histórico quando a página carrega
 atualizarDisplay(valorAtual); // Mostra o valor inicial no display
 
-// Seleciona o botão 7
-const botaoSete = document.querySelector(".btn:nth-child(5)");
+// Limpar histórico ao clicar no link
 
-// Adiciona um evento de clique
-botaoSete.addEventListener("click", function() {
-    console.log("Botão 7 foi clicado!");
+// Seleciona o link de limpar histórico
+const btnLimparHistorico = document.getElementById('limpar-historico');
+
+// Função para limpar o histórico
+function limparHistorico() {
+    historico = []; // Limpa o array do histórico
+    localStorage.removeItem('calcHistory'); // Remove do localStorage
+    renderHistorico(); // Atualiza a lista na tela
+}
+
+// Adiciona o evento de clique ao link
+btnLimparHistorico.addEventListener("click", (evento) => {
+    evento.preventDefault(); // Evita o comportamento padrão do link
+    limparHistorico(); // Chama a função para limpar o histórico
 });

@@ -115,6 +115,15 @@ body {
     padding-right: 25px;
 }
 
+#limpar-historico {
+    font-size: 14px;
+    color: var(--especiais-color);
+    margin-left: 10px;
+    margin-bottom: 5px;
+    float: left;
+    cursor: pointer;
+}
+
 
 /* Animação do clique dos botões */
 
