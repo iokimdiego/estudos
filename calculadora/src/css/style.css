@@ -114,3 +114,17 @@ body {
     padding-top: 20px;
     padding-right: 25px;
 }
+
+
+/* Animação do clique dos botões */
+
+.btn {
+    /* transition: transform 0.1s ease, box-shadow 0.1s ease; */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    user-select: none; /* Evita seleção de texto ao clicar */
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2) inset; /* Efeito de sombra interna ao clicar */
+}
