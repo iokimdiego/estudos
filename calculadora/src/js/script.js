@@ -164,6 +164,7 @@ function calcular() {
 
 // Limpa tudo (AC)
 function limparTudo() {
+    expressao = '';
     valorAtual = '0';
     valorAnterior = null;
     operador = null;
@@ -226,4 +227,43 @@ function limparHistorico() {
 btnLimparHistorico.addEventListener("click", (evento) => {
     evento.preventDefault(); // Evita o comportamento padrão do link
     limparHistorico(); // Chama a função para limpar o histórico
+});
+
+// Passo 8: ouvir as teclas do teclado
+
+document.addEventListener('keydown', (evento) => {
+    const tecla = evento.key;
+
+    // Se for um número (0-9)
+    if (/^\d$/.test(tecla)) {
+        inserirNumero(tecla);
+    }
+
+    // Se for um ponto (.)
+    else if (tecla === '.') {
+        inserirPonto();
+    }
+
+    // Se for um operador (+, -, *, /)
+    else if (['+', '-', '*', '/'].includes(tecla)) {
+        definirOperador(tecla);
+    }
+
+    // Se for Enter ou =, calcula
+    else if (tecla === 'Enter' || tecla === '=') {
+        evento.preventDefault(); // Evita o comportamento padrão (ex: submit de formulário)
+        calcular();
+    }
+
+    // Se for Delete ou ESC, limpa tudo (AC)
+    else if (tecla === 'Delete' || tecla === 'Escape') {
+        limparTudo();
+    }
+
+    // Se for Backspace, apaga o último dígito
+    else if (tecla === 'Backspace') {
+        valorAtual = valorAtual.slice(0, -1) || '0'; // Remove o último caractere ou volta para '0'
+        expressao = expressao.slice(0, -1) || ''; // Remove o último caractere da expressão
+        atualizarDisplayExpressao(); // Atualiza o display com a expressão completa
+    }
 });
