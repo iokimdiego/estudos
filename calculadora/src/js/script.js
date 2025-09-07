@@ -16,6 +16,7 @@ let valorAtual = '0'; // O valor que está sendo mostrado no display
 let valorAnterior = null; // O valor que estava antes do atual
 let operador = null; // A operação que o usuário escolheu (+ - * /)
 let acabouDeCalcular = false; // Se o último botão apertado foi [=]
+let expressao = ''; // A expressão completa (ex: 5 + 3)
 
 let historico = JSON.parse(localStorage.getItem('calcHistory')) || []; // Array para guardar o histórico
 
@@ -25,6 +26,10 @@ let historico = JSON.parse(localStorage.getItem('calcHistory')) || []; // Array 
 // Atualiza o display com o valor atual
 function atualizarDisplay(valor) {
     displayValor.textContent = valor;
+}
+
+function atualizarDisplayExpressao() {
+    displayValor.textContent = expressao || valorAtual; // Mostra a expressão ou o valor atual
 }
 
 // Salva o histórico na tela
@@ -53,19 +58,25 @@ function renderHistorico() {
 
 function inserirNumero(digito) {
     if (acabouDeCalcular) {
+        expressao = ''; // Se acabou de calcular, reseta a expressão
         valorAtual = digito; // Se acabou de calcular, começa um novo número
         acabouDeCalcular = false; // Reseta a flag
-        atualizarDisplay(valorAtual);
-        return;
+        // atualizarDisplay(valorAtual);
+        // return;
+    } else {
+        valorAtual = (valorAtual === '0') ? digito : valorAtual + digito; // Evita múltiplos zeros à esquerda
     }
 
-    if (valorAtual === '0') {
-        // Se o valor atual é 0, substitui pelo novo dígito
-        valorAtual = digito;
-    } else {
-        valorAtual += digito; // Adiciona o dígito ao final do número atual
-    }
-    atualizarDisplay(valorAtual);
+    expressao += digito; // Adiciona o dígito à expressão
+    atualizarDisplayExpressao(); // Atualiza o display com a expressão completa
+
+    // if (valorAtual === '0') {
+    //     // Se o valor atual é 0, substitui pelo novo dígito
+    //     valorAtual = digito;
+    // } else {
+    //     valorAtual += digito; // Adiciona o dígito ao final do número atual
+    // }
+    // atualizarDisplay(valorAtual);
 }
 
 function inserirPonto() {
@@ -92,8 +103,15 @@ function definirOperador(op) {
     
     valorAnterior = valorAtual; // Salva o valor atual como anterior
     operador = (op === 'x') ? '*' : op; // Define a operação (converte 'x' para '*')
-    acabouDeCalcular = false; // Reseta a flag
+    
+    expressao += ` ${op} `; // Adiciona o operador à expressão
     valorAtual = '0'; // Reseta o valor atual para o próximo número
+    acabouDeCalcular = false; // Reseta a flag
+
+    atualizarDisplayExpressao(); // Atualiza o display com a expressão completa
+    
+    // acabouDeCalcular = false; // Reseta a flag
+    // valorAtual = '0'; // Reseta o valor atual para o próximo número
 }
 
 
@@ -127,13 +145,15 @@ function calcular() {
     }
 
     // Formata o resultado para evitar muitos dígitos decimais
-    resultado = Number.isInteger(resultado) ? resultado : parseFloat(resultado.toFixed(10));
+    resultado = Number.isInteger(resultado) ? resultado : parseFloat(resultado.toFixed(5));
 
     // mostra e organiza o estado
-    const expressao = `${numAnterior} ${operador} ${numAtual} = ${resultado}`;
-    salvarHistorico(expressao); // Salva no histórico
+    const expressaoFinal = `${expressao} = ${resultado}`; // Cria a expressão final
+    salvarHistorico(expressaoFinal); // Salva no histórico
     valorAtual = resultado.toString(); // Atualiza o valor atual com o resultado
     atualizarDisplay(valorAtual);
+
+    expressao = valorAtual; // Reseta a expressão para o resultado
     valorAnterior = null; // Reseta o valor anterior
     operador = null; // Reseta a operação
     acabouDeCalcular = true; // Marca que acabou de calcular
