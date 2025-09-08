@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\bin\Debug\net9.0\Any-All-Contains.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\bin\Debug\net9.0\Any-All-Contains.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\bin\Debug\net9.0\Any-All-Contains.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\bin\Debug\net9.0\Any-All-Contains.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\bin\Debug\net9.0\Any-All-Contains.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\Any-All-Contains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\Any-All-Contains.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\Any-All-Contains.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\Any-All-Contains.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\Any-All-Contains.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\Any-All-Contains.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\refint\Any-All-Contains.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\Any-All-Contains.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\Any-All-Contains.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpLINQ\Any-All-Contains\obj\Debug\net9.0\ref\Any-All-Contains.dll
