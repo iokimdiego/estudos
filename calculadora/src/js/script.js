@@ -24,8 +24,8 @@ let historico = JSON.parse(localStorage.getItem('calcHistory')) || []; // Array 
 // Passo 2: funções utilitárias (pequenos blocos de código que vou usar várias vezes)
 
 // Atualiza o display com o valor atual
-function atualizarDisplay(valor) {
-    displayValor.textContent = valor;
+function atualizarDisplay() {
+    displayValor.textContent = valorAtual;
 }
 
 function atualizarDisplayExpressao() {
@@ -58,38 +58,25 @@ function renderHistorico() {
 
 function inserirNumero(digito) {
     if (acabouDeCalcular) {
-        expressao = ''; // Se acabou de calcular, reseta a expressão
-        valorAtual = digito; // Se acabou de calcular, começa um novo número
-        acabouDeCalcular = false; // Reseta a flag
-        // atualizarDisplay(valorAtual);
-        // return;
+        valorAtual = digito;      // começa novo número
+        acabouDeCalcular = false;
+    } else if (valorAtual === '0' && digito !== '.') {
+        valorAtual = digito;      // substitui o zero inicial
     } else {
-        valorAtual = (valorAtual === '0') ? digito : valorAtual + digito; // Evita múltiplos zeros à esquerda
+        valorAtual += digito;     // concatena dígito
     }
-
-    expressao += digito; // Adiciona o dígito à expressão
-    atualizarDisplayExpressao(); // Atualiza o display com a expressão completa
-
-    // if (valorAtual === '0') {
-    //     // Se o valor atual é 0, substitui pelo novo dígito
-    //     valorAtual = digito;
-    // } else {
-    //     valorAtual += digito; // Adiciona o dígito ao final do número atual
-    // }
-    // atualizarDisplay(valorAtual);
+    atualizarDisplay();
 }
 
+// Inserir ponto decimal
 function inserirPonto() {
     if (acabouDeCalcular) {
-        valorAtual = '0.'; // Se acabou de calcular, começa um novo número com ponto
-        acabouDeCalcular = false; // Reseta a flag
-        atualizarDisplay(valorAtual); // Atualiza o display
-        return;
+        valorAtual = '0.';        // começa novo número decimal
+        acabouDeCalcular = false;
+    } else if (!valorAtual.includes('.')) {
+        valorAtual += '.';        // só adiciona se ainda não tiver ponto
     }
-    if (!valorAtual.includes('.')) {
-        valorAtual += '.'; // Adiciona o ponto se não tiver
-        atualizarDisplay(valorAtual); // Atualiza o display
-    }
+    atualizarDisplay();
 }
 
 // --------------------------------------------------------------------
@@ -97,21 +84,15 @@ function inserirPonto() {
 
 function definirOperador(op) {
     if (operador && !acabouDeCalcular) {
-        // Se já tem uma operação e não acabou de calcular, faz o cálculo antes
-        calcular();
+        calcular(); // resolve operação pendente
     }
-    
-    valorAnterior = valorAtual; // Salva o valor atual como anterior
-    operador = (op === 'x') ? '*' : op; // Define a operação (converte 'x' para '*')
-    
-    expressao += ` ${op} `; // Adiciona o operador à expressão
-    valorAtual = '0'; // Reseta o valor atual para o próximo número
-    acabouDeCalcular = false; // Reseta a flag
 
-    atualizarDisplayExpressao(); // Atualiza o display com a expressão completa
-    
-    // acabouDeCalcular = false; // Reseta a flag
-    // valorAtual = '0'; // Reseta o valor atual para o próximo número
+    valorAnterior = valorAtual;                   // guarda o número atual
+    operador = (op === 'x') ? '*' : op;           // converte 'x' para '*'
+    expressao = valorAnterior + `${op} `;        // monta a expressão até aqui
+    valorAtual = '0';                             // reseta para próximo número
+    acabouDeCalcular = false;
+    atualizarDisplay(expressao);
 }
 
 
@@ -148,7 +129,7 @@ function calcular() {
     resultado = Number.isInteger(resultado) ? resultado : parseFloat(resultado.toFixed(5));
 
     // mostra e organiza o estado
-    const expressaoFinal = `${expressao} = ${resultado}`; // Cria a expressão final
+    const expressaoFinal = `${numAnterior} ${operador} ${numAtual} = ${resultado}`; // Cria a expressão final
     salvarHistorico(expressaoFinal); // Salva no histórico
     valorAtual = resultado.toString(); // Atualiza o valor atual com o resultado
     atualizarDisplay(valorAtual);
@@ -168,7 +149,7 @@ function limparTudo() {
     valorAtual = '0';
     valorAnterior = null;
     operador = null;
-    acabouDeCalcular = false;
+    acabouDeCalcular = true; // Marca que acabou de calcular
     atualizarDisplay(valorAtual);
 }
 
