@@ -14,6 +14,7 @@ const listaHistorico = document.getElementById('historico-lista');
 
 let valorAtual = '0'; // O valor que está sendo mostrado no display
 let valorAnterior = null; // O valor que estava antes do atual
+let segundoNumeral = false; // Se o usuário já apertou um operador e está digitando o segundo número
 let operador = null; // A operação que o usuário escolheu (+ - * /)
 let acabouDeCalcular = false; // Se o último botão apertado foi [=]
 let expressao = ''; // A expressão completa (ex: 5 + 3)
@@ -24,8 +25,9 @@ let historico = JSON.parse(localStorage.getItem('calcHistory')) || []; // Array 
 // Passo 2: funções utilitárias (pequenos blocos de código que vou usar várias vezes)
 
 // Atualiza o display com o valor atual
-function atualizarDisplay() {
-    displayValor.textContent = valorAtual;
+function atualizarDisplay(valor) {
+    // Substitui ponto por vírgula para exibição
+    displayValor.textContent = valor.replace(/\./g, ",");
 }
 
 function atualizarDisplayExpressao() {
@@ -42,13 +44,18 @@ function salvarHistorico(item) {
     renderHistorico(); // Atualiza a lista do histórico na tela
 }
 
+// Formata e substitui ponto por vírgula
+function formatarDecimais(expr) {
+    return String(expr).replace(/(\d+)\.(\d+)/g, '$1,$2');
+}
+
 // Renderiza o histórico na tela
 function renderHistorico() {
     if (!listaHistorico) return; // Se o elemento não existe, sai da função
     listaHistorico.innerHTML = ''; // Limpa a lista
-    historico.forEach(txt => {
+    historico.forEach(item => {
         const li = document.createElement('li'); // Cria um novo item de lista
-        li.textContent = txt; // Define o texto do item
+        li.textContent = formatarDecimais(item); // Define o texto do item
         listaHistorico.appendChild(li); // Adiciona o item na lista
     });
 }
@@ -57,26 +64,91 @@ function renderHistorico() {
 // Passo 3: digitando números (0-9 e .)
 
 function inserirNumero(digito) {
+    // if (acabouDeCalcular) {
+    //     valorAtual = digito; // começa novo número
+    //     expressao = digito; // reseta a expressão
+    //     acabouDeCalcular = false;
+    //     console.log('Valor Atual if:', valorAtual);
+    //     console.log('Expressão Atual if:', expressao);
+    // } else if (segundoNumeral) {
+    //     // se está digitando o segundo número
+    //     valorAtual = digito;      // começa novo número
+    //     expressao += digito; // continua a expressão
+    //     segundoNumeral = false;   // já não está mais digitando o segundo número
+    //     console.log('Valor Atual Segundo Numeral:', valorAtual);
+    // } else if (valorAtual === '0' && digito !== '.') {
+    //     valorAtual = digito;      // substitui o zero inicial
+    //     expressao += digito; // continua a expressão
+    //     console.log('Valor Atual Else if:', valorAtual);
+    // } else {
+    //     valorAtual += digito;     // concatena dígito
+    //     expressao += digito; // continua a expressão
+    //     console.log('Valor Atual Else:', valorAtual);
+    // }
+
+    // // Se já existe operador definido, mantém a expressão completa visível
+    // if (operador && segundoNumeral) {
+    //     expressao = `${valorAnterior} ${operador} ${digito}`;
+    //     atualizarDisplay(expressao); // mostra a expressão completa
+    //     console.log('Expressão Atual if operador:', expressao);
+    // } else {
+    //     atualizarDisplay(valorAtual) // mostra só o número atual
+    //     console.log('Valor Atual else operador:', valorAtual);
+    // }
+
+    // // expressao += valorAtual; // atualiza a expressão completa
+    // atualizarDisplay(expressao); // mostra a expressão completa
+    // console.log('Expressão Atual:', expressao);
+
     if (acabouDeCalcular) {
-        valorAtual = digito;      // começa novo número
+        valorAtual = digito; // começa novo número
+        expressao = digito; // reseta a expressão
         acabouDeCalcular = false;
+    } else if (segundoNumeral) {
+        // se está digitando o segundo número
+        valorAtual = digito;      // começa novo número
+        expressao = `${valorAnterior} ${operador} ${valorAtual}`; // continua a expressão
+        segundoNumeral = false;   // já não está mais digitando o segundo número
     } else if (valorAtual === '0' && digito !== '.') {
         valorAtual = digito;      // substitui o zero inicial
+        expressao = operador ? `${valorAnterior} ${operador} ${valorAtual}` : valorAtual; // continua a expressão
     } else {
         valorAtual += digito;     // concatena dígito
+        expressao = operador ? `${valorAnterior} ${operador} ${valorAtual}` : valorAtual; // continua a expressão
     }
-    atualizarDisplay();
+
+    atualizarDisplay(expressao); // mostra a expressão completa
+
 }
 
 // Inserir ponto decimal
 function inserirPonto() {
+    // if (acabouDeCalcular) {
+    //     valorAtual = '0.';        // começa novo número decimal
+    //     console.log('Valor Atual inserirPonto() if:', valorAtual);
+    //     acabouDeCalcular = false;
+    // } else if (!valorAtual.includes('.')) {
+    //     valorAtual += '.';        // só adiciona se ainda não tiver ponto
+    // }
+    // atualizarDisplay(valorAtual);
+
     if (acabouDeCalcular) {
         valorAtual = '0.';        // começa novo número decimal
+        expressao = valorAtual; // reseta a expressão
         acabouDeCalcular = false;
+    } else if (segundoNumeral) {
+        valorAtual = '0.';
+        expressao = `${valorAnterior} ${operador} ${valorAtual}`; // continua a expressão
+        segundoNumeral = false;
     } else if (!valorAtual.includes('.')) {
-        valorAtual += '.';        // só adiciona se ainda não tiver ponto
+        valorAtual += '.'; // só adiciona se ainda não tiver ponto
+        expressao = operador ? `${valorAnterior} ${operador} ${valorAtual}` : valorAtual; // continua a expressão
+    } else {
+        return; // se já tem ponto, não faz nada
     }
-    atualizarDisplay();
+
+    atualizarDisplay(expressao);
+
 }
 
 // --------------------------------------------------------------------
@@ -84,15 +156,17 @@ function inserirPonto() {
 
 function definirOperador(op) {
     if (operador && !acabouDeCalcular) {
-        calcular(); // resolve operação pendente
+        calcular();                               // resolve operação pendente
     }
-
+    console.log('Valor Anterior:', valorAnterior);
     valorAnterior = valorAtual;                   // guarda o número atual
     operador = (op === 'x') ? '*' : op;           // converte 'x' para '*'
-    expressao = valorAnterior + `${op} `;        // monta a expressão até aqui
-    valorAtual = '0';                             // reseta para próximo número
-    acabouDeCalcular = false;
+    expressao = `${valorAnterior} ${op} `;        // monta a expressão até aqui
     atualizarDisplay(expressao);
+    console.log('Expressão:', expressao);
+    // valorAtual = '0';                             // reseta para próximo número
+    segundoNumeral = true;                        // agora está digitando o segundo número
+    acabouDeCalcular = false;
 }
 
 
@@ -118,6 +192,7 @@ function calcular() {
                 valorAnterior = null;
                 operador = null;
                 acabouDeCalcular = true;
+                segundoNumeral = false;
                 return;
             }
             resultado = numAnterior / numAtual; 
@@ -138,6 +213,7 @@ function calcular() {
     valorAnterior = null; // Reseta o valor anterior
     operador = null; // Reseta a operação
     acabouDeCalcular = true; // Marca que acabou de calcular
+    segundoNumeral = false; // Reseta o estado do segundo numeral
 }
 
 // --------------------------------------------------------------------
@@ -150,6 +226,7 @@ function limparTudo() {
     valorAnterior = null;
     operador = null;
     acabouDeCalcular = true; // Marca que acabou de calcular
+    segundoNumeral = false; // Reseta o estado do segundo numeral
     atualizarDisplay(valorAtual);
 }
 
@@ -221,7 +298,7 @@ document.addEventListener('keydown', (evento) => {
     }
 
     // Se for um ponto (.)
-    else if (tecla === '.') {
+    else if (tecla === ',') {
         inserirPonto();
     }
 
