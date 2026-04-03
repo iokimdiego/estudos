@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\CSharpFundamentos\\ERPEscola\\ERPEscola.csproj": {}
+    "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\ERPEscola\\ERPEscola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\CSharpFundamentos\\ERPEscola\\ERPEscola.csproj": {
+    "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\ERPEscola\\ERPEscola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\CSharpFundamentos\\ERPEscola\\ERPEscola.csproj",
+        "projectUniqueName": "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\ERPEscola\\ERPEscola.csproj",
         "projectName": "ERPEscola",
-        "projectPath": "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\CSharpFundamentos\\ERPEscola\\ERPEscola.csproj",
+        "projectPath": "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\ERPEscola\\ERPEscola.csproj",
         "packagesPath": "C:\\Users\\iokim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\CSharpFundamentos\\ERPEscola\\obj\\",
+        "outputPath": "C:\\Users\\iokim\\OneDrive\\Documentos\\Cursos\\DESENVOLVEDOR FULL STACK\\estudos\\CSharp\\ERPEscola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iokim\\AppData\\Roaming\\NuGet\\NuGet.Config"
