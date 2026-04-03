@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Onda estática */
+        .hero {
+            position: relative; /* necessário para o posicionamento absoluto da onda */
+            background: linear-gradient(180deg, #2890ef 0%, #1e6fd1 100%); /* fundo gradiente azul */
+            color: white;
+            padding: 80px 20px 120px; /* espaço extra na parte inferior para a onda */
+            overflow: hidden; /* para esconder o excesso da onda */
+        }
+        .hero .onda {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 80px; /* altura da onda */
+            display: block; /* torna o SVG um bloco */
+        }
+
+        .hero-animated {
+            position: relative; /* necessário para o posicionamento absoluto da onda */
+            background: linear-gradient(180deg, #28efce 0%, #1e4ed1 100%); /* fundo gradiente verde */
+            color: white;
+            padding: 80px 20px 120px; /* espaço extra na parte inferior para a onda */
+            overflow: hidden; /* para esconder o excesso da onda */
+        }
+
+        /* Onda animada */
+        .wave {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 200%; /* largura maior para animação */
+            height: 100px; /* altura da onda */
+            transform: translate(0); /* posição inicial */
+        }
+        .wave1{ animation: moove 10s linear infinite; opacity: .8; } /* animação */
+        .wave2{ animation: moove 18s linear infinite; opacity: .6; } /* animação */
+        
+        /* Animação do movimento da onda */
+        @keyframes moove {
+            from { transform: translateX(0); } /* início da animação */
+            to { transform: translateX(-50%); } /* fim da animação */
+        }
+
+        /* Imagem cortada com inline SVG */
+        .hero-section {
+            position: relative;
+            background: url('assets/images/banner-hero-background.png') center/cover no-repeat;
+            color: white;
+            height: 480px;
+            padding: 120px 20px 200px; /* 200px espaço para a onda no fundo*/
+            overflow: hidden;
+        }
+
+        .hero-section .hero-content {
+            position: relative;
+            z-index: 2; /* garante que o conteúdo fique acima da onda */
+        }
+
+        .hero-section .wave-img {
+            position: absolute;
+            left: 0;
+            right: 0;
+            /* bottom: 0; */
+            width: 100%;
+            height: 100px; /* altura da onda */
+            display: block;
+            z-index: 1; /* coloca a onda atrás do conteúdo */
+        }
+    </style>
+
+</head>
+<body>
+    <!-- SVG inline estático -->
+    <section class="hero">
+        <div class="content">
+            <h1>Olá, mundo!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, reiciendis doloremque? Veniam eum quisquam nemo officia, reiciendis autem, sint eaque, aperiam saepe inventore omnis velit! Modi dicta ullam dolor eius?</p>
+        </div>
+
+        <!-- Onda SVG no rodapé da Hero Section -->
+        <svg class="onda" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0,30 C360,120 1080,-60 1440,30 L1440,150 L0,150 Z" fill="#fff"></path>
+        </svg>
+        <!-- class="onda": estiliza a onda SVG -->
+        <!-- viewBox: define a área visível do SVG -->
+        <!-- preserveAspectRatio: mantém a proporção do SVG ao redimensionar -->
+        <!-- aria-hidden: oculta o SVG da acessibilidade -->
+        <!-- path: define o contorno da onda -->
+        <!-- fill: define a cor de preenchimento da onda -->
+    </section>
+
+    <!-- Onda Animada: duas camadas SVG com transformação -->
+    <section class="hero-animated">
+        <div class="content">
+            <h1>Olá, mundo!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, reiciendis doloremque? Veniam eum quisquam nemo officia, reiciendis autem, sint eaque, aperiam saepe inventore omnis velit! Modi dicta ullam dolor eius?</p>
+        </div>
+
+        <!-- Onda SVG no rodapé da Hero Section -->
+        <svg class="wave wave1" viewBox="0 0 1200 100" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 30 C150 80 350 -20 600 30 C850 80 1050 -20 1200 30 L1200 100 L0 100 Z" fill="#fff"></path>
+        </svg>
+
+        <svg class="wave wave2" viewBox="0 0 1200 100" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 40 C180 90 420 -10 700 40 C980 90 1120 -10 1200 40 L1200 100 L0 100 Z" fill="#fff"></path>
+        </svg>
+    </section>
+
+    <!-- Imagem cortada com inline SVG -->
+    <section class="hero-section">
+        <div class="hero-content container text-center text-light">
+            <h1>Bem-vindo ao meu portfólio</h1>
+            <p>Desenvolvedor Full Stack C# .NET • PHP • JavaScript</p>
+            <a class="btn btn-primary" href="#">Ver Projetos</a>
+        </div>
+        <svg class="wave-img" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0,30 C360,120 1080,-60 1440,30 L1440,150 L0,150 Z" fill="#ffffff"></path>
+        </svg>
+    </section>
+    <section class="meus-projetos">
+        <h2>Meus Projetos</h2>
+        <p>Aqui estão alguns dos meus trabalhos recentes.</p>
+    </section>
+</body>
+</html>

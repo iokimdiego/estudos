@@ -1,0 +1,15 @@
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\bin\Debug\net10.0\ERPEscola.exe
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\bin\Debug\net10.0\ERPEscola.deps.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\bin\Debug\net10.0\ERPEscola.runtimeconfig.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\bin\Debug\net10.0\ERPEscola.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\bin\Debug\net10.0\ERPEscola.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ERPEscola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ERPEscola.AssemblyInfoInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ERPEscola.AssemblyInfo.cs
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ERPEscola.csproj.CoreCompileInputs.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ERPEscola.sourcelink.json
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ERPEscola.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\refint\ERPEscola.dll
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ERPEscola.pdb
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ERPEscola.genruntimeconfig.cache
+C:\Users\iokim\OneDrive\Documentos\Cursos\DESENVOLVEDOR FULL STACK\estudos\CSharp\CSharpFundamentos\ERPEscola\obj\Debug\net10.0\ref\ERPEscola.dll
